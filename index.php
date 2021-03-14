@@ -15,8 +15,8 @@
     $idade = 15;
     $email = "andreygouveia.05@gmail.com";
     
-    echo '<h1>Olá <font color="#000099">'.$nome.'</font>, bem vindo! <br>
-    Você tem <font color="#65a5CD">'.$idade.'</font> anos, seu email é: "<font color="#000BFF">'.$email.'</font>"</h1>';
+    echo '<h1>Olá <font color="#000060">'.$nome.'</font>, bem vindo! <br>
+    Você tem <font color="#ef6950">'.$idade.'</font> anos, seu email é: "<font color="#6888c9">'.$email.'</font>"</h1>';
     ?>
     
 
