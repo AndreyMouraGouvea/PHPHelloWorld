@@ -22,6 +22,7 @@ body{
 }
 #imagem{
     width: 500px;
+    margin-bottom: 0px;
 }
 #section{
     display: flex;
@@ -32,6 +33,7 @@ body{
     display: flex;
     justify-content: flex-end;
     margin-top: 10%;
+    margin-bottom: 0;
     align-items: center;
     background-color: <?php echo $fundo; ?>;
 }
@@ -59,11 +61,8 @@ body{
             $name = "Andrey Moura";
             $imagem = "https://wallpaperaccess.com/full/2096094.jpg";
             
-            // fica certinho, mas a cor está errada.
-            echo '<background-color="'.$fundo.'"><h1 style="margin-left: 30%;">'.$name.'<br></h1><img src="'.$imagem.'" id="imagem">';
-            // sem background, mas não fica no meio.
-            // echo '<h1>'.$name.'<br><img src="'.$imagem.'" id="imagem"></h1>';
-            // echo '<h1>'.$name.'</h1><br><img src="'.$imagem.'" id="imagem">';
+            echo '<background-color="'.$fundo.'"><h1 style="margin-left: 30%;"><font color="#fff">'.$name.'</font><br></h1><img src="'.$imagem.'" id="imagem">';
+            // agradecimento especial ao prof Rodolfo que me auxiliou com as pics e background-color :) sz
 
         ?>
     </section>
