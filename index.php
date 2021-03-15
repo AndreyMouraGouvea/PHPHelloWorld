@@ -29,6 +29,7 @@ body{
     justify-content: flex-end;
     margin-top: 10%;
     align-items: center;
+    /* background-color: <?php echo $fundo; ?>; */
 }
 
 
@@ -53,9 +54,12 @@ body{
             $fundo = "red";
             $name = "Andrey Moura";
             $imagem = "https://wallpaperaccess.com/full/2096094.jpg";
-            // $imagem =  "https://quatrorodas.abril.com.br/wp-content/uploads/2020/01/ford-mustang-gt350r-16.jpg?quality=70&strip=info";
-            echo '<background color="'.$fundo.'"><h1 style="margin-left: 30%;">'.$name.'<br></h1><img src="'.$imagem.'" id="imagem">';
-
+            
+            // fica certinho, mas a cor está errada.
+            echo '<background-color="'.$fundo.'"><h1 style="margin-left: 30%;">'.$name.'<br></h1><img src="'.$imagem.'" id="imagem">';
+            // sem background, mas não fica no meio.
+            // echo '<h1>'.$name.'<br><img src="'.$imagem.'" id="imagem"></h1>';
+            // echo '<h1>'.$name.'</h1><br><img src="'.$imagem.'" id="imagem">';
 
         ?>
     </section>
