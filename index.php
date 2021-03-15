@@ -6,6 +6,10 @@
     <title>Contato</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<!-- declaração variável cor de fundo -->
+<?php
+$fundo = "red";
+?>
 <style>
 body{
     height: 900px;
@@ -29,7 +33,7 @@ body{
     justify-content: flex-end;
     margin-top: 10%;
     align-items: center;
-    /* background-color: <?php echo $fundo; ?>; */
+    background-color: <?php echo $fundo; ?>;
 }
 
 
